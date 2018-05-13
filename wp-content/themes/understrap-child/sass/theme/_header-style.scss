@@ -1,0 +1,84 @@
+//------------------ Header -----------------
+.main-scroll {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-color: $black-color;
+}
+
+//---------------Link to the part of content ---------------
+.header-nav-link:link, .header-nav-link:visited {
+	font-weight: 400;
+	text-transform: uppercase;
+	color: $white-color;
+	padding: 0.2rem 0.5rem;
+	border-bottom: 1px solid $main-color;
+	display: inline-block;
+	@media (min-width: 768px) {
+		font-size: 1.1rem;
+	}
+}
+
+.header-nav-link:hover {
+	color: $main-color;
+	border-bottom: 1px solid $white-color;
+}
+
+.navbar-brand-name:link, .navbar-brand-name:visited {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: $white-color;
+}
+.nav-position {
+	font-size: 0.8rem;
+	font-weight: 300;
+	color: $white-color;
+	line-height: 0.5rem;
+}
+
+.brand-name-before {
+	color: $main-color;
+}
+
+.nav-link-button {
+	background-color: $main-color;
+	i {
+		color: $white-color;
+	}
+}
+
+//------------Fixed header -------------------
+.fixed-header {
+	display: none;
+	@media (min-width: 768px) {
+		display: block;
+		position: absolute;
+		width: 100%;
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+		z-index: 1;
+	}
+}
+
+.mobile-header {
+	background-color: $black-color;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	display: inherit;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+	@media (min-width: 768px) {
+		display: none;
+	}
+}
+.md-header {
+	display: none;
+	position: fixed;
+		width: 100%;
+		z-index: 2;
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+		background-color: $black-color;
+}
+

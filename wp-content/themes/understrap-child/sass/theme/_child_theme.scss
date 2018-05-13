@@ -1,0 +1,71 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+span, p, h2, h3, h4, h5, i, time, address {
+	font-weight: 400;
+	font-size: 1rem;
+	margin: 0;
+	line-height: 1.5rem;
+	font-family: "Open Sans";
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	font-size: 1rem;
+	margin: 0;
+	line-height: 1.5rem;
+	font-family: "Open Sans";
+}
+
+li{
+	list-style-type:none;
+}
+ul, ol {
+	padding: 0;
+	margin: 0;
+}
+
+
+#arrow-top {
+	position: fixed;
+	right: 2rem;
+	bottom: 4rem;
+	color: $gray-color;
+	font-size: 2rem;
+	z-index: 100;
+	opacity: 0.5;
+}
+#arrow-top:hover {
+	color: $main-color;
+	opacity: 1;
+}
+.top-scroll {
+	font-size: 0;
+}
+
+.back-home:link, .back-home:visited {
+	color: $white-color;
+	font-size: 1rem;
+	text-transform: uppercase;
+	padding: 0.5rem 1rem;
+	border: 1px solid $main-color;
+	border-radius: 0.5rem;
+	display: inline-block;
+}
+.back-home:hover {
+	border: 1px solid $white-color;
+}
+
+.notfound-title {
+	color: $white-color;
+	font-size: 2rem;
+	text-transform: uppercase;
+	border-bottom: 1px solid $main-color;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+}
+
+.notfound-span {
+	color: $white-color;
+}

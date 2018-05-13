@@ -1,0 +1,35 @@
+//-----------Skills Section------------------------
+
+
+.hidden-skills {
+	display: none;
+}
+.visible-skills{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.skills-img-slick {
+	width: 50%;
+	filter: grayscale(0.5);
+}
+.skills-img-slick:hover {
+	filter: grayscale(0);
+}
+
+.see {
+	padding: 0.2rem 1rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	color: $black-color;
+	border: 1px solid $main-color;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+.skills-img-click {
+	width: 50%;
+	filter: grayscale(0.5);
+}
+.skills-img-click:hover {
+	filter: grayscale(0);
+}

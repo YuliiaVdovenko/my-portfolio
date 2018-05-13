@@ -1,0 +1,77 @@
+//--------------Second Section-----------------
+
+.section-title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: $black-color;
+	text-transform: uppercase;
+	line-height: 1.7rem;
+	border-bottom: 2px solid $main-color;
+	padding: 0.5rem 1rem;
+	display: inline-block;
+	@media (min-width: 576px) {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+}
+
+.li-border {
+	box-shadow: 4px 4px 10px 4px #cbcbcb;
+}
+
+.project-name:link, .project-name:visited {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: $black-color;
+	border-bottom: 1px solid $main-color;
+	display: inline-block;
+}
+
+.project-description {
+	font-size: 0.9rem;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.visit-button:link, .visit-button:visited {
+	text-align: right;
+	display: inline-block;
+	color: $black-color;
+	text-transform: uppercase;
+	padding: 0.2rem 1rem;
+	border: 1px solid $main-color;
+	border-radius: 0.5rem;
+}
+
+.git-button:link, .git-button:visited {
+	font-size: 1.6rem;
+	display: inline-block;
+	color: $black-color;
+	padding: 0.2rem 1rem;
+}
+.git-button:hover {
+	color: $main-color;
+}
+
+//---------Pagination --------------------
+
+.pagination {
+	padding-bottom: 3rem;
+	.pag-link,.pag-span {
+		color: $black-color;
+		text-transform: uppercase;
+		font-weight: 400;
+		display: flex;
+		align-items: center;
+	}
+	.next {
+		font-size: 1.4rem;
+		color: $primary;
+		margin-left: 0.2rem;
+	}
+	.prev {
+		font-size: 1.4rem;
+		color: $primary;
+		margin-right: 0.2rem;
+	}
+}
